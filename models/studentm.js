@@ -5,4 +5,5 @@ var studentModel = mongoose.model("students", new mongoose.Schema({
     fathername:String,
     age:Number
 }))
+
 module.exports = studentModel

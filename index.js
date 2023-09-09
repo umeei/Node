@@ -14,7 +14,7 @@ app.use("/api/teacher",Teacherapi)
 
 
 
-mongoose.connect('mongodb+srv://umairjutt2025:umairjutt2025@umair-cluster.oducycs.mongodb.net/Sdata?retryWrites=true&w=majority').then((res)=>{
+mongoose.connect('mongodb+srv://umairjutt2025:umairjutt2025@umair-cluster.oducycs.mongodb.net/something?retryWrites=true&w=majority').then((res)=>{
     console.log("Database is connected!")
 }).catch((err)=>{
     console.log(err.message)

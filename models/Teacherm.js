@@ -1,10 +1,10 @@
-const mongoose = require (`mongoose`)
+const mongoose = require('mongoose')
 
-var teacherdata=mongoose.model('teachers', new mongoose.Schema({
+var teacherdata = mongoose.model('teachers', new mongoose.Schema({
     Name:String,
     Subject:String,
     age:Number
 
 }))
 
-module.exports = teacherdata
+module.exports = teacherdata 
